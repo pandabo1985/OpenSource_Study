@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="searchres_napps">Βρέθηκαν %1$d εφαρμογές που συσχετίζονται με \'%2$s\':</string>
+  <string name="searchres_oneapp">Βρέθηκε μια εφαρμογή που συσχετίζεται με \'%s\':</string>
+  <string name="searchres_noapps">Δε βρέθηκαν εφαρμογές που να συσχετίζονται με το \'%s\'</string>
+  <string name="SignatureMismatch">Η καινούργια έκδοση είναι υπογεγραμμένη με διαφορετικό κλείδι από την παλιά. Για να γίνει η εγκατάσταση της καινούργιας έκδοσης, πρέπει να γίνει πρώτα η απεγκατάσταση της παλιάς έκδοσης. Παρακαλώ όπως το κάνετε αυτό και προσπαθήστε ξανά. (Σημειώστε ότι η απεγκατάσταση θα διαγράψει οποιαδήποτε εσωτερικά δεδομένα που αποθηκεύονται από την εφαρμογή)</string>
+  <string name="installIncompatible">Φαίνεται ότι αυτό το πακέτο δεν είναι συμβατό με τη συσκευή σας. Θα θέλατε να δοκιμάσετε να το εγκαταστήσετε ούτως ή άλλως;</string>
+  <string name="installDowngrade">Προσπαθείτε να υποβαθμίσετε αυτήν την εφαρμογή. Αν το κάνετε αυτό, μπορεί να προκληθούν προβλήματα στην εφαρμογή ή ακόμα και να χάσετε τα δεδομένα σας. Θέλετε να δοκιμάσετε να την υποβαθμίσετε ούτως ή άλλως;</string>
+  <string name="version">Έκδοση</string>
+  <string name="cache_downloaded">Αποθήκευση ληφθέντων εφαρμογών στην προσωρινή μνήμη</string>
+  <string name="updates">Ενημερώσεις</string>
+  <string name="other">Άλλα</string>
+  <string name="last_update_check">Τελευταίο σάρωμα αποθετηρίου: %s</string>
+  <string name="never">ποτέ</string>
+  <string name="automatic_scan_wifi">Μόνο σε wifi</string>
+  <string name="notify">Ειδοποίηση</string>
+  <string name="update_history">Ιστορικό ενημερώσεων</string>
+  <string name="search_results">Αποτελέσματα Αναζήτησης</string>
+  <string name="app_details">Λεπτομέρειες Εφαρμογής</string>
+  <string name="no_such_app">Δεν βρέθηκε τέτοια εφαρμογή</string>
+  <string name="about_title">Σχετικά με το F-Droid</string>
+  <string name="about_desc">Αρχικά βασιζόταν στο Aptoide.
+Κυκλοφόρεί κάτω από την άδεια GNU GPLv3.</string>
+  <string name="about_site">Ιστοσελίδα:</string>
+  <string name="about_mail">Ηλ. ταχυδρομείο:</string>
+  <string name="about_version">Έκδοση:</string>
+  <string name="about_website">Ιστοσελίδα</string>
+  <string name="no_repo">Δεν έχει ρυθμιστεί κανένα αποθετήριο!
+
+Ένα αποθετήριο είναι μια πηγή εφαρμογών. Για να προσθέσετε κάποιο, πιέστε το πλήκτρο ΜΕΝΟΥ και εισάγετε το URL.
+
+Μια διεύθυνση αποθετηρίου μοιάζει κάπως έτσι: https://f-droid.org/repo</string>
+  <string name="inst">Εγκατεστημένο</string>
+  <string name="not_inst">Δεν είναι εγκατεστημένο</string>
+  <string name="added_on">Προστέθηκε στις %s</string>
+  <string name="ok">Εντάξει</string>
+  <string name="yes">Ναι</string>
+  <string name="no">Όχι</string>
+  <string name="repo_add_title">Προσθήκη νέου αποθετηρίου</string>
+  <string name="repo_add_add">Προσθήκη</string>
+  <string name="cancel">Ακύρωση</string>
+  <string name="repo_delete_title">Επιλογή αποθετηρίου για διαγραφή</string>
+  <string name="repo_update_title">Ενημέρωση αποθετηρίων</string>
+  <string name="tab_noninstalled">Διαθέσιμα</string>
+  <string name="tab_updates">Ενημερώσεις</string>
+  <string name="one_update_available">1 διαθέσιμη ενημερώση.</string>
+  <string name="many_updates_available">%d διαθέσιμες ενημερώσεις.</string>
+  <string name="fdroid_updates_available">Διαθέσιμες ενημερώσεις για το F-Droid</string>
+  <string name="process_wait_title">Παρακαλώ περιμένετε</string>
+  <string name="process_update_msg">Ενημέρωση λίστα εφαρμογών…</string>
+  <string name="download_server">Λήψη εφαρμογών από</string>
+  <string name="repo_add_url">Διεύθυνση αποθετηρίου</string>
+  <string name="repo_alrt">Η λίστα με τα χρησιμοποιούμενα αποθετήρια έχει αλλάξει. 
+Θέλετε να ενημερωθούν;</string>
+  <string name="menu_update_repo">Ενημέρωση αποθετηρίων</string>
+  <string name="menu_manage">Διαχείριση Αποθετηρίων</string>
+  <string name="menu_preferences">Προτιμήσεις</string>
+  <string name="menu_about">Σχετικά</string>
+  <string name="menu_search">Αναζήτηση</string>
+  <string name="menu_add_repo">Νέο Αποθετήριο</string>
+  <string name="menu_rem_repo">Αφαίρεση Αποθετηρίου</string>
+  <string name="menu_launch">Εκτέλεση</string>
+  <string name="menu_share">Διαμοιρασμός</string>
+  <string name="menu_install">Εγκατάσταση</string>
+  <string name="menu_uninstall">Απεγκατάσταση</string>
+  <string name="menu_ignore_all">Αγνόησε Όλες τις Ενημερώσεις</string>
+  <string name="menu_ignore_this">Αγνόησε Αυτή την Ενημέρωση</string>
+  <string name="menu_website">Ιστοσελίδα</string>
+  <string name="menu_issues">Ζητήματα</string>
+  <string name="menu_source">Πηγαίος κώδικας</string>
+  <string name="menu_upgrade">Αναβάθμιση</string>
+  <string name="menu_donate">Δωρεά</string>
+  <string name="details_installed">Εγκατεστημένη Έκδοση: %s</string>
+  <string name="details_notinstalled">Δεν είναι εγκατεστημένο</string>
+  <string name="corrupt_download">Το αρχείο που λήφθηκε είναι κατεστραμμένο</string>
+  <string name="download_cancelled">Ακύρωθηκε η λήψη</string>
+  <string name="antiadslist">Αυτή η εφαρμογή περιέχει διαφημίσεις</string>
+  <string name="antitracklist">Αυτή η εφαρμογή παρακολουθεί και αναφέρει την δραστηριότητα σας</string>
+  <string name="antinonfreeadlist">Αυτή η εφαρμογή προωθεί μη-ελεύθερα πρόσθετα</string>
+  <string name="antinonfreenetlist">Αυτή η εφαρμογή προωθούν μη ελεύθερες υπηρεσίες δικτύου</string>
+  <string name="antinonfreedeplist">Αυτή η εφαρμογή εξαρτάται από άλλες μη-ελεύθερες εφαρμογές.</string>
+  <string name="display">Εμφάνιση</string>
+  <string name="expert">Για Προχωρημένους</string>
+  <string name="search_hint">Αναζήτηση εφαρμογών</string>
+  <string name="appcompatibility">Συμβατότητα εφαμοργής</string>
+  <string name="show_incompat_versions">Μη συμβατές εκδόσεις</string>
+  <string name="rooted">Root</string>
+  <string name="ignoreTouch">Αγνόησε την Οθόνη Επαφής</string>
+  <string name="category_all">Όλα</string>
+  <string name="category_whatsnew">Τι νέο υπάρχει</string>
+  <string name="category_recentlyupdated">Πρόσφατα Ενημερωμένες</string>
+  <string name="status_download">Λήψη
+%2$s / %3$s (%4$d%%)από
+%1$s</string>
+  <string name="status_processing_xml">Επεξεργασία εφαρμογής
+%2$d από %3$d από
+%1$s</string>
+  <string name="status_connecting_to_repo">Σύνδεση με
+%1$s</string>
+  <string name="status_checking_compatibility">Έλεγχος συμβατότητας εφαρμογών με τη συσκευή σας…</string>
+  <string name="no_permissions">Δεν χρησιμοποιείται καμία άδεια.</string>
+  <string name="permissions_for_long">Άδειες για την έκδοση %s</string>
+  <string name="showPermissions">Εμφάνιση αδειών</string>
+  <string name="no_handler_app">Δεν έχεται καμία διαθέσιμη εφαρμογή που να μπορεί να χειριστεί %s</string>
+  <string name="compactlayout">Συμπτυγμένη Διάταξη</string>
+  <string name="theme">Θέμα</string>
+</resources>
