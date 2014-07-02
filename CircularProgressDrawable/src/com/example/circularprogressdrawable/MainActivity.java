@@ -15,8 +15,9 @@ public class MainActivity extends Activity {
 		LinearLayout ll = (LinearLayout) findViewById(R.id.main_bg);
 	
 		CustomView customView = new CustomView(this);
+		LayoutParams params  = new LayoutParams(100, 100);
 		
-		ll.addView(customView);
+		ll.addView(customView,params);
 		
 	}
 
