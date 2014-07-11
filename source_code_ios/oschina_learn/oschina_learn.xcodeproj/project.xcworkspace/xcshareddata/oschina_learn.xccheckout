@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B254AB36-7B21-4735-B901-2A96A823D3AB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>oschina_learn</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D0036E08-05BD-4A54-8B0B-3E8202A5FF71</key>
+		<string>https://github.com/pandabo1985/OpenSource_Study.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>source_code_ios/oschina_learn/oschina_learn.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D0036E08-05BD-4A54-8B0B-3E8202A5FF71</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pandabo1985/OpenSource_Study.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D0036E08-05BD-4A54-8B0B-3E8202A5FF71</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D0036E08-05BD-4A54-8B0B-3E8202A5FF71</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OpenSource_Study</string>
+		</dict>
+	</array>
+</dict>
+</plist>

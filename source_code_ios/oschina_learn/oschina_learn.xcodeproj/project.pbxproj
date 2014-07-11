@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8417B276196E1EB500DBD23A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417B275196E1EB500DBD23A /* Foundation.framework */; };
+		8417B278196E1EB500DBD23A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417B277196E1EB500DBD23A /* CoreGraphics.framework */; };
+		8417B27A196E1EB500DBD23A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417B279196E1EB500DBD23A /* UIKit.framework */; };
+		8417B280196E1EB500DBD23A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8417B27E196E1EB500DBD23A /* InfoPlist.strings */; };
+		8417B282196E1EB500DBD23A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417B281196E1EB500DBD23A /* main.m */; };
+		8417B286196E1EB500DBD23A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417B285196E1EB500DBD23A /* AppDelegate.m */; };
+		8417B288196E1EB500DBD23A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8417B287196E1EB500DBD23A /* Images.xcassets */; };
+		8417B28F196E1EB600DBD23A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417B28E196E1EB600DBD23A /* XCTest.framework */; };
+		8417B290196E1EB600DBD23A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417B275196E1EB500DBD23A /* Foundation.framework */; };
+		8417B291196E1EB600DBD23A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417B279196E1EB500DBD23A /* UIKit.framework */; };
+		8417B299196E1EB600DBD23A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8417B297196E1EB600DBD23A /* InfoPlist.strings */; };
+		8417B29B196E1EB600DBD23A /* oschina_learnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417B29A196E1EB600DBD23A /* oschina_learnTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8417B292196E1EB600DBD23A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8417B26A196E1EB500DBD23A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8417B271196E1EB500DBD23A;
+			remoteInfo = oschina_learn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8417B272196E1EB500DBD23A /* oschina_learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oschina_learn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8417B275196E1EB500DBD23A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8417B277196E1EB500DBD23A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8417B279196E1EB500DBD23A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8417B27D196E1EB500DBD23A /* oschina_learn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "oschina_learn-Info.plist"; sourceTree = "<group>"; };
+		8417B27F196E1EB500DBD23A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8417B281196E1EB500DBD23A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8417B283196E1EB500DBD23A /* oschina_learn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "oschina_learn-Prefix.pch"; sourceTree = "<group>"; };
+		8417B284196E1EB500DBD23A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8417B285196E1EB500DBD23A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8417B287196E1EB500DBD23A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8417B28D196E1EB600DBD23A /* oschina_learnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oschina_learnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8417B28E196E1EB600DBD23A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8417B296196E1EB600DBD23A /* oschina_learnTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "oschina_learnTests-Info.plist"; sourceTree = "<group>"; };
+		8417B298196E1EB600DBD23A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8417B29A196E1EB600DBD23A /* oschina_learnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oschina_learnTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8417B26F196E1EB500DBD23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417B278196E1EB500DBD23A /* CoreGraphics.framework in Frameworks */,
+				8417B27A196E1EB500DBD23A /* UIKit.framework in Frameworks */,
+				8417B276196E1EB500DBD23A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8417B28A196E1EB500DBD23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417B28F196E1EB600DBD23A /* XCTest.framework in Frameworks */,
+				8417B291196E1EB600DBD23A /* UIKit.framework in Frameworks */,
+				8417B290196E1EB600DBD23A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8417B269196E1EB500DBD23A = {
+			isa = PBXGroup;
+			children = (
+				8417B27B196E1EB500DBD23A /* oschina_learn */,
+				8417B294196E1EB600DBD23A /* oschina_learnTests */,
+				8417B274196E1EB500DBD23A /* Frameworks */,
+				8417B273196E1EB500DBD23A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8417B273196E1EB500DBD23A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8417B272196E1EB500DBD23A /* oschina_learn.app */,
+				8417B28D196E1EB600DBD23A /* oschina_learnTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8417B274196E1EB500DBD23A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8417B275196E1EB500DBD23A /* Foundation.framework */,
+				8417B277196E1EB500DBD23A /* CoreGraphics.framework */,
+				8417B279196E1EB500DBD23A /* UIKit.framework */,
+				8417B28E196E1EB600DBD23A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8417B27B196E1EB500DBD23A /* oschina_learn */ = {
+			isa = PBXGroup;
+			children = (
+				8417B284196E1EB500DBD23A /* AppDelegate.h */,
+				8417B285196E1EB500DBD23A /* AppDelegate.m */,
+				8417B287196E1EB500DBD23A /* Images.xcassets */,
+				8417B27C196E1EB500DBD23A /* Supporting Files */,
+			);
+			path = oschina_learn;
+			sourceTree = "<group>";
+		};
+		8417B27C196E1EB500DBD23A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8417B27D196E1EB500DBD23A /* oschina_learn-Info.plist */,
+				8417B27E196E1EB500DBD23A /* InfoPlist.strings */,
+				8417B281196E1EB500DBD23A /* main.m */,
+				8417B283196E1EB500DBD23A /* oschina_learn-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8417B294196E1EB600DBD23A /* oschina_learnTests */ = {
+			isa = PBXGroup;
+			children = (
+				8417B29A196E1EB600DBD23A /* oschina_learnTests.m */,
+				8417B295196E1EB600DBD23A /* Supporting Files */,
+			);
+			path = oschina_learnTests;
+			sourceTree = "<group>";
+		};
+		8417B295196E1EB600DBD23A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8417B296196E1EB600DBD23A /* oschina_learnTests-Info.plist */,
+				8417B297196E1EB600DBD23A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8417B271196E1EB500DBD23A /* oschina_learn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8417B29E196E1EB600DBD23A /* Build configuration list for PBXNativeTarget "oschina_learn" */;
+			buildPhases = (
+				8417B26E196E1EB500DBD23A /* Sources */,
+				8417B26F196E1EB500DBD23A /* Frameworks */,
+				8417B270196E1EB500DBD23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oschina_learn;
+			productName = oschina_learn;
+			productReference = 8417B272196E1EB500DBD23A /* oschina_learn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8417B28C196E1EB500DBD23A /* oschina_learnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8417B2A1196E1EB600DBD23A /* Build configuration list for PBXNativeTarget "oschina_learnTests" */;
+			buildPhases = (
+				8417B289196E1EB500DBD23A /* Sources */,
+				8417B28A196E1EB500DBD23A /* Frameworks */,
+				8417B28B196E1EB500DBD23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8417B293196E1EB600DBD23A /* PBXTargetDependency */,
+			);
+			name = oschina_learnTests;
+			productName = oschina_learnTests;
+			productReference = 8417B28D196E1EB600DBD23A /* oschina_learnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8417B26A196E1EB500DBD23A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.afayear;
+				TargetAttributes = {
+					8417B28C196E1EB500DBD23A = {
+						TestTargetID = 8417B271196E1EB500DBD23A;
+					};
+				};
+			};
+			buildConfigurationList = 8417B26D196E1EB500DBD23A /* Build configuration list for PBXProject "oschina_learn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8417B269196E1EB500DBD23A;
+			productRefGroup = 8417B273196E1EB500DBD23A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8417B271196E1EB500DBD23A /* oschina_learn */,
+				8417B28C196E1EB500DBD23A /* oschina_learnTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8417B270196E1EB500DBD23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417B280196E1EB500DBD23A /* InfoPlist.strings in Resources */,
+				8417B288196E1EB500DBD23A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8417B28B196E1EB500DBD23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417B299196E1EB600DBD23A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8417B26E196E1EB500DBD23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417B286196E1EB500DBD23A /* AppDelegate.m in Sources */,
+				8417B282196E1EB500DBD23A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8417B289196E1EB500DBD23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417B29B196E1EB600DBD23A /* oschina_learnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8417B293196E1EB600DBD23A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8417B271196E1EB500DBD23A /* oschina_learn */;
+			targetProxy = 8417B292196E1EB600DBD23A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8417B27E196E1EB500DBD23A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8417B27F196E1EB500DBD23A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8417B297196E1EB600DBD23A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8417B298196E1EB600DBD23A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8417B29C196E1EB600DBD23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8417B29D196E1EB600DBD23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8417B29F196E1EB600DBD23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oschina_learn/oschina_learn-Prefix.pch";
+				INFOPLIST_FILE = "oschina_learn/oschina_learn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8417B2A0196E1EB600DBD23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oschina_learn/oschina_learn-Prefix.pch";
+				INFOPLIST_FILE = "oschina_learn/oschina_learn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8417B2A2196E1EB600DBD23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/oschina_learn.app/oschina_learn";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oschina_learn/oschina_learn-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "oschina_learnTests/oschina_learnTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8417B2A3196E1EB600DBD23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/oschina_learn.app/oschina_learn";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oschina_learn/oschina_learn-Prefix.pch";
+				INFOPLIST_FILE = "oschina_learnTests/oschina_learnTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8417B26D196E1EB500DBD23A /* Build configuration list for PBXProject "oschina_learn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8417B29C196E1EB600DBD23A /* Debug */,
+				8417B29D196E1EB600DBD23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8417B29E196E1EB600DBD23A /* Build configuration list for PBXNativeTarget "oschina_learn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8417B29F196E1EB600DBD23A /* Debug */,
+				8417B2A0196E1EB600DBD23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8417B2A1196E1EB600DBD23A /* Build configuration list for PBXNativeTarget "oschina_learnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8417B2A2196E1EB600DBD23A /* Debug */,
+				8417B2A3196E1EB600DBD23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8417B26A196E1EB500DBD23A /* Project object */;
+}
