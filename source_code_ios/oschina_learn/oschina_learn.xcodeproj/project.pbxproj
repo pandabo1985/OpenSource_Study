@@ -19,6 +19,16 @@
 		8417B291196E1EB600DBD23A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417B279196E1EB500DBD23A /* UIKit.framework */; };
 		8417B299196E1EB600DBD23A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8417B297196E1EB600DBD23A /* InfoPlist.strings */; };
 		8417B29B196E1EB600DBD23A /* oschina_learnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417B29A196E1EB600DBD23A /* oschina_learnTests.m */; };
+		84AB5BF21990828A007188BE /* NewsBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB5BF11990828A007188BE /* NewsBase.m */; };
+		84AB5BF5199082AD007188BE /* PostBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB5BF4199082AD007188BE /* PostBase.m */; };
+		84AB5BF8199082D0007188BE /* TweetBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB5BF7199082D0007188BE /* TweetBase.m */; };
+		84AB5BFB199082F3007188BE /* ProfileBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB5BFA199082F3007188BE /* ProfileBase.m */; };
+		84AB5BFE19908308007188BE /* SettingBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB5BFD19908308007188BE /* SettingBase.m */; };
+		84AB5C0019908510007188BE /* NewBase.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AB5BFF19908510007188BE /* NewBase.xib */; };
+		84AB5C0219908520007188BE /* PostBase.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AB5C0119908520007188BE /* PostBase.xib */; };
+		84AB5C04199087A0007188BE /* TweetBase.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AB5C03199087A0007188BE /* TweetBase.xib */; };
+		84AB5C06199087D0007188BE /* ProfileBase.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AB5C05199087D0007188BE /* ProfileBase.xib */; };
+		84AB5C08199087E3007188BE /* SettingBase.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AB5C07199087E3007188BE /* SettingBase.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,21 @@
 		8417B296196E1EB600DBD23A /* oschina_learnTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "oschina_learnTests-Info.plist"; sourceTree = "<group>"; };
 		8417B298196E1EB600DBD23A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8417B29A196E1EB600DBD23A /* oschina_learnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oschina_learnTests.m; sourceTree = "<group>"; };
+		84AB5BF01990828A007188BE /* NewsBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsBase.h; sourceTree = "<group>"; };
+		84AB5BF11990828A007188BE /* NewsBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsBase.m; sourceTree = "<group>"; };
+		84AB5BF3199082AD007188BE /* PostBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostBase.h; sourceTree = "<group>"; };
+		84AB5BF4199082AD007188BE /* PostBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostBase.m; sourceTree = "<group>"; };
+		84AB5BF6199082D0007188BE /* TweetBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetBase.h; sourceTree = "<group>"; };
+		84AB5BF7199082D0007188BE /* TweetBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetBase.m; sourceTree = "<group>"; };
+		84AB5BF9199082F3007188BE /* ProfileBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileBase.h; sourceTree = "<group>"; };
+		84AB5BFA199082F3007188BE /* ProfileBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileBase.m; sourceTree = "<group>"; };
+		84AB5BFC19908308007188BE /* SettingBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingBase.h; sourceTree = "<group>"; };
+		84AB5BFD19908308007188BE /* SettingBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingBase.m; sourceTree = "<group>"; };
+		84AB5BFF19908510007188BE /* NewBase.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewBase.xib; sourceTree = "<group>"; };
+		84AB5C0119908520007188BE /* PostBase.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostBase.xib; sourceTree = "<group>"; };
+		84AB5C03199087A0007188BE /* TweetBase.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetBase.xib; sourceTree = "<group>"; };
+		84AB5C05199087D0007188BE /* ProfileBase.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileBase.xib; sourceTree = "<group>"; };
+		84AB5C07199087E3007188BE /* SettingBase.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingBase.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +134,10 @@
 			children = (
 				8417B284196E1EB500DBD23A /* AppDelegate.h */,
 				8417B285196E1EB500DBD23A /* AppDelegate.m */,
+				84AB5BEC199080A1007188BE /* News */,
+				84AB5BEB19908089007188BE /* Tweet */,
+				84AB5BED199080BB007188BE /* Profile */,
+				84AB5BEE199080D8007188BE /* Setting */,
 				8417B287196E1EB500DBD23A /* Images.xcassets */,
 				8417B27C196E1EB500DBD23A /* Supporting Files */,
 			);
@@ -142,6 +171,49 @@
 				8417B297196E1EB600DBD23A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84AB5BEB19908089007188BE /* Tweet */ = {
+			isa = PBXGroup;
+			children = (
+				84AB5BF6199082D0007188BE /* TweetBase.h */,
+				84AB5BF7199082D0007188BE /* TweetBase.m */,
+				84AB5C03199087A0007188BE /* TweetBase.xib */,
+			);
+			name = Tweet;
+			sourceTree = "<group>";
+		};
+		84AB5BEC199080A1007188BE /* News */ = {
+			isa = PBXGroup;
+			children = (
+				84AB5BF01990828A007188BE /* NewsBase.h */,
+				84AB5BF11990828A007188BE /* NewsBase.m */,
+				84AB5BFF19908510007188BE /* NewBase.xib */,
+				84AB5BF3199082AD007188BE /* PostBase.h */,
+				84AB5BF4199082AD007188BE /* PostBase.m */,
+				84AB5C0119908520007188BE /* PostBase.xib */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		84AB5BED199080BB007188BE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				84AB5BF9199082F3007188BE /* ProfileBase.h */,
+				84AB5BFA199082F3007188BE /* ProfileBase.m */,
+				84AB5C05199087D0007188BE /* ProfileBase.xib */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		84AB5BEE199080D8007188BE /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				84AB5BFC19908308007188BE /* SettingBase.h */,
+				84AB5BFD19908308007188BE /* SettingBase.m */,
+				84AB5C07199087E3007188BE /* SettingBase.xib */,
+			);
+			name = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +291,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AB5C04199087A0007188BE /* TweetBase.xib in Resources */,
+				84AB5C0019908510007188BE /* NewBase.xib in Resources */,
 				8417B280196E1EB500DBD23A /* InfoPlist.strings in Resources */,
+				84AB5C0219908520007188BE /* PostBase.xib in Resources */,
+				84AB5C06199087D0007188BE /* ProfileBase.xib in Resources */,
+				84AB5C08199087E3007188BE /* SettingBase.xib in Resources */,
 				8417B288196E1EB500DBD23A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8417B286196E1EB500DBD23A /* AppDelegate.m in Sources */,
+				84AB5BF8199082D0007188BE /* TweetBase.m in Sources */,
+				84AB5BFE19908308007188BE /* SettingBase.m in Sources */,
+				84AB5BF21990828A007188BE /* NewsBase.m in Sources */,
+				84AB5BF5199082AD007188BE /* PostBase.m in Sources */,
+				84AB5BFB199082F3007188BE /* ProfileBase.m in Sources */,
 				8417B282196E1EB500DBD23A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +519,7 @@
 				8417B2A0196E1EB600DBD23A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8417B2A1196E1EB600DBD23A /* Build configuration list for PBXNativeTarget "oschina_learnTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +528,7 @@
 				8417B2A3196E1EB600DBD23A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
